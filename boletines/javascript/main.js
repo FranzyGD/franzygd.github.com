@@ -10,7 +10,7 @@ cerrar.forEach(function (tonto) {
     content.classList.add("animate__animated");
 
     setTimeout(function () {
-      location.href = "./index.html";
+      history.back;
     }, 900);
 
     return false;

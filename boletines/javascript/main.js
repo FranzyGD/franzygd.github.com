@@ -16,4 +16,7 @@ cerrar.forEach(function (tonto) {
     return false;
   });
 });
+/*
+hola
+*/
 

@@ -10,7 +10,7 @@ cerrar.forEach(function (tonto) {
     content.classList.add("animate__animated");
 
     setTimeout(function () {
-      location.href = "/boletines/";
+      location.href = "/boletines/index.html";
     }, 900);
 
     return false;

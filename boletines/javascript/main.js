@@ -10,8 +10,7 @@ cerrar.forEach(function (tonto) {
     content.classList.add("animate__animated");
 
     setTimeout(function () {
-      history.back();
-      console.log("hola")
+      location.href = "https://franzygd.github.io/boletines/";
     }, 900);
 
     return false;

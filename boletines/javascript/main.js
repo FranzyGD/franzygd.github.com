@@ -1,9 +1,3 @@
-/*
-  let links = document.querySelectorAll("a");
-  links.forEach(function(link){
-    console.log(link);
-  })
-*/
 let cerrar = document.querySelectorAll(".close");
 cerrar.forEach(function (tonto) {
   tonto.addEventListener("click", function (event) {
@@ -15,9 +9,9 @@ cerrar.forEach(function (tonto) {
     content.classList.add("animate__fadeOutUp");
     content.classList.add("animate__animated");
 
-    setTimeout(function(){
-      location.href = "/";
-    },900);
+    setTimeout(function () {
+      location.href = "/boletines";
+    }, 900);
 
     return false;
   });

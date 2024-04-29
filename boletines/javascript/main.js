@@ -11,6 +11,7 @@ cerrar.forEach(function (tonto) {
 
     setTimeout(function () {
       history.back();
+      console.log("hola")
     }, 900);
 
     return false;

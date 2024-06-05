@@ -41,8 +41,8 @@ function mostrar(){
 }
 
 function encontrados(){
-    document.querySelector("#collection").innerHTML=`You've found ${cuenta}/10 characters`;
-    if(cuenta==10){
+    document.querySelector("#collection").innerHTML=`You've found ${cuenta}/11 characters`;
+    if(cuenta==11){
         document.querySelector("#congrats").innerHTML=`<div> Congrats!! You're a true pro. </div> <img src="../ppl/dog.gif">`;
     }
 }

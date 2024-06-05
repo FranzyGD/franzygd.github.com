@@ -1,0 +1,23 @@
+img{
+    width: 100%;
+}
+
+.personame{
+    font-size:1.25em;
+    text-align: center;
+}
+
+.person{
+    width: 50px;
+    margin: 30px;
+}
+
+#lista{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.info{
+    padding: 20px;
+}

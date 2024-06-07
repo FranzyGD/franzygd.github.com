@@ -65,5 +65,8 @@ function cambiarPersona() {
 }
 
 function imprimir(){
+    document.querySelector("#imprimir").style.display="none";
     window.print();
+   
+    
 }

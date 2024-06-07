@@ -6,6 +6,7 @@ img{
 	width:100%;
 	vertical-align:top;
     border-radius:50%;
+	-webkit-user-drag: none ;
 }
 #corazon{
 	width:29px;

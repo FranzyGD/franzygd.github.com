@@ -22,7 +22,7 @@ function inicio() {
 function teclado(e) {
     let longitud = document.querySelector(".texto").innerHTML.length;
     let excepciones=["Delete", "Backspace", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "Control", "Shift"]
-    if (longitud>15 && excepciones.indexOf(e.key)==-1){
+    if (longitud>30 && excepciones.indexOf(e.key)==-1){
         e.preventDefault();
     } else {
         let codigo = e.key;

@@ -51,6 +51,7 @@ main{
 	left:0;
 	right:0;
 	top:690px;
+	width: 100px;
 }
 #imprimir:hover{
 	color:orangered;

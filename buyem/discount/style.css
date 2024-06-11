@@ -1,0 +1,66 @@
+.elemento{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.persona{
+width: 20%;
+margin: 5px;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nombre{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom:20px ;
+}
+
+#velo{
+    display: none;
+    background-color: rgba(123,45,111, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding:0px;
+}
+
+#mensaje{
+    background-color: rgba(255,255,255,0.8);
+    width: 90%;
+    position:relative;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#mensaje img:nth-child(1){
+    width:30px;
+    position: absolute;
+    right:10px;
+    padding: 3px;
+    top: 10px;
+    
+}
+
+#mensaje img:nth-child(3){
+    width:200px;
+    
+    
+}
+
+#texto{
+    font-size: 2em;
+    text-align: center;
+    line-height: 50px;
+}
